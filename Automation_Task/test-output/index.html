@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FirstTestSuite">
+              <span class="suite-name border-passed">FirstTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FirstTestSuite">
+                    <span>C:\Users\gamilm\Desktop\SeleniumJava\Automation_Task\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FirstTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FirstTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FirstTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FirstTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FirstTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FirstTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FirstTestSuite" class="hide-methods passed suite-FirstTestSuite"> (hide)</a> <!-- hide-methods passed suite-FirstTestSuite -->
+                      <a href="#" panel-name="suite-FirstTestSuite" class="show-methods passed suite-FirstTestSuite"> (show)</a> <!-- show-methods passed suite-FirstTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FirstTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="com.phptravels.RegistrationPageTest" hash-for-method="negativeRegistrationTest({no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=})">negativeRegistrationTest({no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="com.phptravels.RegistrationPageTest" hash-for-method="negativeRegistrationTest({no=3, fname=M, lname=N, confirmpass=111555, phon=111&amp;&amp;$$, pass=111111, emaill=EEE@abc.com})">negativeRegistrationTest({no=3, fname=M, lname=N, confirmpass=111555, phon=111&&$$, pass=111111, emaill=EEE@abc.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="com.phptravels.RegistrationPageTest" hash-for-method="negativeRegistrationTest({no=4, fname=M, lname=N, confirmpass=111111, phon=111&amp;&amp;$$, pass=111111, emaill=EEE@abc.com})">negativeRegistrationTest({no=4, fname=M, lname=N, confirmpass=111111, phon=111&&$$, pass=111111, emaill=EEE@abc.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="com.phptravels.RegistrationPageTest" hash-for-method="negativeRegistrationTest({no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM})">negativeRegistrationTest({no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="com.phptravels.RegistrationPageTest" hash-for-method="possitiveRegistrationTest({no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@a...)">possitiveRegistrationTest({no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="com.phptravels.RegistrationPageTest" hash-for-method="possitiveRegistrationTest({no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa...)">possitiveRegistrationTest({no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FirstTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FirstTestSuite" class="panel FirstTestSuite">
+          <div class="suite-FirstTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phptravels.RegistrationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeRegistrationTest({no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=})">
+                  </a> <!-- negativeRegistrationTest({no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=}) -->
+                  <span class="method-name">negativeRegistrationTest</span>
+                  <span class="parameters">({no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeRegistrationTest({no=3, fname=M, lname=N, confirmpass=111555, phon=111&amp;&amp;$$, pass=111111, emaill=EEE@abc.com})">
+                  </a> <!-- negativeRegistrationTest({no=3, fname=M, lname=N, confirmpass=111555, phon=111&&$$, pass=111111, emaill=EEE@abc.com}) -->
+                  <span class="method-name">negativeRegistrationTest</span>
+                  <span class="parameters">({no=3, fname=M, lname=N, confirmpass=111555, phon=111&&$$, pass=111111, emaill=EEE@abc.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeRegistrationTest({no=4, fname=M, lname=N, confirmpass=111111, phon=111&amp;&amp;$$, pass=111111, emaill=EEE@abc.com})">
+                  </a> <!-- negativeRegistrationTest({no=4, fname=M, lname=N, confirmpass=111111, phon=111&&$$, pass=111111, emaill=EEE@abc.com}) -->
+                  <span class="method-name">negativeRegistrationTest</span>
+                  <span class="parameters">({no=4, fname=M, lname=N, confirmpass=111111, phon=111&&$$, pass=111111, emaill=EEE@abc.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeRegistrationTest({no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM})">
+                  </a> <!-- negativeRegistrationTest({no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM}) -->
+                  <span class="method-name">negativeRegistrationTest</span>
+                  <span class="parameters">({no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="possitiveRegistrationTest({no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@a...)">
+                  </a> <!-- possitiveRegistrationTest({no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@a...) -->
+                  <span class="method-name">possitiveRegistrationTest</span>
+                  <span class="parameters">({no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@aaa.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="possitiveRegistrationTest({no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa...)">
+                  </a> <!-- possitiveRegistrationTest({no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa...) -->
+                  <span class="method-name">possitiveRegistrationTest</span>
+                  <span class="parameters">({no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa@aaa.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstTestSuite-class-passed -->
+        </div> <!-- panel FirstTestSuite -->
+        <div panel-name="test-xml-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gamilm\Desktop\SeleniumJava\Automation_Task\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FirstTestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.phptravels.base.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;RegistrationPageTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phptravels.RegistrationPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegistrationPageTest --&gt;
+&lt;/suite&gt; &lt;!-- FirstTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FirstTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegistrationPageTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FirstTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FirstTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FirstTestSuite');
+function tableData_FirstTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'possitiveRegistrationTest')
+data.setCell(0, 2, 'com.phptravels.RegistrationPageTest')
+data.setCell(0, 3, 28438);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'possitiveRegistrationTest')
+data.setCell(1, 2, 'com.phptravels.RegistrationPageTest')
+data.setCell(1, 3, 17229);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'negativeRegistrationTest')
+data.setCell(2, 2, 'com.phptravels.RegistrationPageTest')
+data.setCell(2, 3, 16130);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'negativeRegistrationTest')
+data.setCell(3, 2, 'com.phptravels.RegistrationPageTest')
+data.setCell(3, 3, 15738);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'negativeRegistrationTest')
+data.setCell(4, 2, 'com.phptravels.RegistrationPageTest')
+data.setCell(4, 3, 13019);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'negativeRegistrationTest')
+data.setCell(5, 2, 'com.phptravels.RegistrationPageTest')
+data.setCell(5, 3, 9710);
+window.suiteTableData['FirstTestSuite']= { tableData: data, tableDiv: 'times-div-FirstTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-FirstTestSuite">
+              </div> <!-- times-div-FirstTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FirstTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FirstTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phptravels.RegistrationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@19b89d4)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map), chrome, org...)</span>
+                <span class="method-start">163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeRegistrationTest({no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=})</span>
+                <span class="method-start">7393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTeardown</span>
+                <span class="method-start">23136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map), chrome, org...)</span>
+                <span class="method-start">24725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeRegistrationTest({no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM})</span>
+                <span class="method-start">29741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTeardown</span>
+                <span class="method-start">42762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map), chrome, org...)</span>
+                <span class="method-start">43884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeRegistrationTest({no=3, fname=M, lname=N, confirmpass=111555, phon=111&&$$, pass=111111, emaill=EEE@abc.com})</span>
+                <span class="method-start">48879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTeardown</span>
+                <span class="method-start">65012 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map), chrome, org...)</span>
+                <span class="method-start">66174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeRegistrationTest({no=4, fname=M, lname=N, confirmpass=111111, phon=111&&$$, pass=111111, emaill=EEE@abc.com})</span>
+                <span class="method-start">71101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTeardown</span>
+                <span class="method-start">80813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(public void com.phptravels.RegistrationPageTest.possitiveRegistrationTest(java.util.Map), chrome, or...)</span>
+                <span class="method-start">81987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">possitiveRegistrationTest({no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@a...)</span>
+                <span class="method-start">87216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTeardown</span>
+                <span class="method-start">104448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(public void com.phptravels.RegistrationPageTest.possitiveRegistrationTest(java.util.Map), chrome, or...)</span>
+                <span class="method-start">105695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">possitiveRegistrationTest({no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa...)</span>
+                <span class="method-start">110742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTeardown</span>
+                <span class="method-start">139183 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

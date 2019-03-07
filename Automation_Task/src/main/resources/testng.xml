@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FirstTestSuite" >
+	<listeners>
+	<listener class-name="com.phptravels.base.TestListener"></listener>
+	</listeners>
+  
+	<test name="RegistrationPageTest-CH">
+	  <parameter name="browser" value="chrome"/>
+	  <groups>
+	  <run>
+	 <exclude name="negative"></exclude>
+	  </run>
+	  </groups>
+	    <classes>
+	      <class name="com.phptravels.RegistrationPageTest"> </class>
+	    </classes>
+	  </test>
+
+  
+</suite> <!-- Suite -->

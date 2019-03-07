@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="140338" started-at="2019-03-07T21:01:14Z" finished-at="2019-03-07T21:03:34Z">
+    <groups>
+    </groups>
+    <test name="RegistrationPageTest" duration-ms="140338" started-at="2019-03-07T21:01:14Z" finished-at="2019-03-07T21:03:34Z">
+      <class name="com.phptravels.RegistrationPageTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="setUpClass" is-config="true" duration-ms="150" started-at="2019-03-07T23:01:14Z" finished-at="2019-03-07T23:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="7230" started-at="2019-03-07T23:01:14Z" finished-at="2019-03-07T23:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="negativeRegistrationTest(java.util.Map)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="negativeRegistrationTest" duration-ms="15738" started-at="2019-03-07T23:01:21Z" data-provider="CsvDataProvider" finished-at="2019-03-07T23:01:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, fname=, lname=, confirmpass=1, phon=, pass=, emaill=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeRegistrationTest -->
+        <test-method status="PASS" signature="methodTeardown()[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodTeardown" is-config="true" duration-ms="1589" started-at="2019-03-07T23:01:37Z" finished-at="2019-03-07T23:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="5016" started-at="2019-03-07T23:01:39Z" finished-at="2019-03-07T23:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="negativeRegistrationTest(java.util.Map)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="negativeRegistrationTest" duration-ms="13019" started-at="2019-03-07T23:01:44Z" data-provider="CsvDataProvider" finished-at="2019-03-07T23:01:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, fname=111111, lname=444, confirmpass=333, phon=AAA, pass=222, emaill=MMM}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeRegistrationTest -->
+        <test-method status="PASS" signature="methodTeardown()[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodTeardown" is-config="true" duration-ms="1122" started-at="2019-03-07T23:01:57Z" finished-at="2019-03-07T23:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="4995" started-at="2019-03-07T23:01:58Z" finished-at="2019-03-07T23:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="negativeRegistrationTest(java.util.Map)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="negativeRegistrationTest" duration-ms="16130" started-at="2019-03-07T23:02:03Z" data-provider="CsvDataProvider" finished-at="2019-03-07T23:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=3, fname=M, lname=N, confirmpass=111555, phon=111&&$$, pass=111111, emaill=EEE@abc.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeRegistrationTest -->
+        <test-method status="PASS" signature="methodTeardown()[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodTeardown" is-config="true" duration-ms="1162" started-at="2019-03-07T23:02:19Z" finished-at="2019-03-07T23:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="4927" started-at="2019-03-07T23:02:20Z" finished-at="2019-03-07T23:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phptravels.RegistrationPageTest.negativeRegistrationTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="negativeRegistrationTest(java.util.Map)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="negativeRegistrationTest" duration-ms="9710" started-at="2019-03-07T23:02:25Z" data-provider="CsvDataProvider" finished-at="2019-03-07T23:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=4, fname=M, lname=N, confirmpass=111111, phon=111&&$$, pass=111111, emaill=EEE@abc.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeRegistrationTest -->
+        <test-method status="PASS" signature="methodTeardown()[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodTeardown" is-config="true" duration-ms="1173" started-at="2019-03-07T23:02:35Z" finished-at="2019-03-07T23:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="5229" started-at="2019-03-07T23:02:36Z" finished-at="2019-03-07T23:02:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phptravels.RegistrationPageTest.possitiveRegistrationTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="possitiveRegistrationTest(java.util.Map)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="possitiveRegistrationTest" duration-ms="17229" started-at="2019-03-07T23:02:41Z" data-provider="CsvDataProvider" finished-at="2019-03-07T23:02:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, fname=Ahmed, lname=Adel, confirmpass=Aaa@1133, phon=023366991, pass=Aaa@1133, emaill=a.adel@aaa.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- possitiveRegistrationTest -->
+        <test-method status="PASS" signature="methodTeardown()[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodTeardown" is-config="true" duration-ms="1247" started-at="2019-03-07T23:02:58Z" finished-at="2019-03-07T23:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="5047" started-at="2019-03-07T23:03:00Z" finished-at="2019-03-07T23:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phptravels.RegistrationPageTest.possitiveRegistrationTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@19b89d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="possitiveRegistrationTest(java.util.Map)[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="possitiveRegistrationTest" duration-ms="28438" started-at="2019-03-07T23:03:05Z" data-provider="CsvDataProvider" finished-at="2019-03-07T23:03:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, fname=Mona, lname=Alaa, confirmpass=bBb11@10, phon=010223344556, pass=bBb11@10, emaill=m.alaa@aaa.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- possitiveRegistrationTest -->
+        <test-method status="PASS" signature="methodTeardown()[pri:0, instance:com.phptravels.RegistrationPageTest@482f8f11]" name="methodTeardown" is-config="true" duration-ms="1133" started-at="2019-03-07T23:03:33Z" finished-at="2019-03-07T23:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+      </class> <!-- com.phptravels.RegistrationPageTest -->
+    </test> <!-- RegistrationPageTest -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>

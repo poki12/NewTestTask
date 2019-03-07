@@ -1,0 +1,5 @@
+no,fname,lname,phon,emaill,pass,confirmpass
+1,,,,,,1,,,
+2,111111,444,AAA,MMM,222,333,,,
+3,M,N,111&&$$,EEE@abc.com,111111,111555,,,
+4,M,N,111&&$$,EEE@abc.com,111111,111111,,,
